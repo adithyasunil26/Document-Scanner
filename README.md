@@ -4,12 +4,12 @@ This is a simple document scanner created using python.
 
 ## Installation 
 
-The libraries required to run this project are imutils, numpy, OpenCV, scikit-image and argparse.
+The libraries required to run this project are imutils, numpy, OpenCV, scikit-image, Pillow and argparse.
 
 If you need to install any of them use the following command:
 
 ```bash
-pip install opencv-python imutils numpy scikit-image argparse
+pip install opencv-python imutils numpy scikit-image argparse pillow
 ```
 
 Clone this repository using
