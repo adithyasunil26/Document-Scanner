@@ -19,7 +19,7 @@ def showcomp(a,b):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-def save(args):
+def save(args,warped):
     filename="scanned"+args
     cv2.imwrite(filename,warped)
     image1 = Image.open(r'{}'.format(filename))
@@ -82,4 +82,4 @@ warped=warping(orig,screenCnt)
 
 showcomp(orig,warped)
 
-save(args)
+save(args,warped)
