@@ -9,7 +9,7 @@ The libraries required to run this project are imutils, numpy, OpenCV, scikit-im
 If you need to install any of them use the following command:
 
 ```bash
-pip install opencv-python imutils numpy scikit-image argparse pillow
+pip install <package name>
 ```
 
 Clone this repository using
